@@ -1,0 +1,1 @@
+# bcon-70-beautyness
