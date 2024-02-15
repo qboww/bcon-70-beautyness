@@ -1,0 +1,225 @@
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* end reset */
+
+/* common styles */
+.py-38 {
+    padding: 38px 0;
+}
+
+.container {
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* end common styles */
+
+.header .container {
+    display: flex;
+    width: 1830px;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 46px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: 32px;
+}
+
+.header-list-item {
+    display: flex;
+}
+
+.header-list-link {
+    padding: 38px 0;
+}
+
+.header-socials {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 32px;
+}
+
+.header-socials-item {
+    display: flex;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.second-section {
+    padding: 150px 0;
+}
+
+.second-section-list {
+    display: flex;
+    gap: 105px;
+    flex-wrap: wrap;
+}
+
+.second-section-item {
+    display: flex;
+    flex-direction: column;
+    max-width: calc((100% - 2 * 105px) / 3);
+}
+
+.second-section-image {
+    margin-bottom: 26px;
+}
+
+.second-item-heading {
+    margin-bottom: 11px;
+}
+
+.second-item-description {
+    margin-bottom: 30px;
+}
