@@ -100,6 +100,10 @@ a {
 
 /*#endregion header */
 
+/*#region section 1 */
+
+/*#endregion section 1 */
+
 /*#region section 2 */
 .visually-hidden {
     position: absolute;
@@ -144,3 +148,106 @@ a {
 }
 
 /*#endregion section 2 */
+
+/*#region section 3 */
+.third-section {
+    background: #ebf3f5;
+}
+
+.third-section .container {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    display: flex;
+    gap: 150px;
+}
+
+.third-section .aboutus-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus-paragraph {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #5c8692;
+    margin-bottom: 9px;
+}
+
+.aboutus-header {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #141414;
+    margin-bottom: 16px;
+}
+
+.aboutus-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #555;
+    margin-bottom: 37px;
+}
+
+.services-list {
+    display: flex;
+    gap: 10px;
+}
+
+.services-item {
+    display: flex;
+    border: 1px solid #1e2c30;
+    padding: 21px 11px;
+    width: 165px;
+    height: 180px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services-head-icon {
+    margin-bottom: 14px;
+}
+
+
+.services-paragraph {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #141414;
+}
+
+.third-section .aboutus-right::before {
+    content: "";
+    width: 505px;
+    height: 576px;
+    background-color: #84A8B2;
+    display: block;
+    position: absolute;
+    top: -38px;
+    right: -48px;
+}
+
+.third-section .aboutus-right {
+    position: relative;
+}
+
+.right-picture {
+    width: 505px;
+    height: 576px;
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+/*#endregion section 3 */
