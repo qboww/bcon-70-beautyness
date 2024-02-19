@@ -197,6 +197,7 @@ a {
 }
 
 .services-list {
+    padding-inline-start: 0px;
     display: flex;
     gap: 10px;
 }
@@ -213,29 +214,17 @@ a {
     flex-direction: column;
 }
 
-.services-head-icon {
+.services-item-icon {
     margin-bottom: 14px;
 }
 
-
-.services-paragraph {
+.services-item-paragraph {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 22px;
     line-height: 120%;
     text-align: center;
     color: #141414;
-}
-
-.third-section .aboutus-right::before {
-    content: "";
-    width: 505px;
-    height: 576px;
-    background-color: #84A8B2;
-    display: block;
-    position: absolute;
-    top: -38px;
-    right: -48px;
 }
 
 .third-section .aboutus-right {
@@ -248,6 +237,17 @@ a {
     display: block;
     z-index: 1;
     position: relative;
+}
+
+.third-section .aboutus-right::before {
+    content: "";
+    width: 505px;
+    height: 576px;
+    background-color: #84A8B2;
+    display: block;
+    position: absolute;
+    top: -38px;
+    right: -48px;
 }
 
 /*#endregion section 3 */
