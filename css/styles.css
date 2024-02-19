@@ -1,94 +1,4 @@
-/* reset css */
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
+/*#region reset css */
 article,
 aside,
 details,
@@ -130,9 +40,9 @@ table {
     border-spacing: 0;
 }
 
-/* end reset */
+/*#endregion reset css */
 
-/* common styles */
+/*#region common styles */
 .py-38 {
     padding: 38px 0;
 }
@@ -143,8 +53,14 @@ table {
     margin: 0 auto;
 }
 
-/* end common styles */
+a {
+    text-decoration: none;
+    color: black;
+}
 
+/*#endregion common styles */
+
+/*#region header */
 .header .container {
     display: flex;
     width: 1830px;
@@ -182,6 +98,9 @@ table {
     display: flex;
 }
 
+/*#endregion header */
+
+/*#region section 2 */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -223,3 +142,5 @@ table {
 .second-item-description {
     margin-bottom: 30px;
 }
+
+/*#endregion section 2 */
